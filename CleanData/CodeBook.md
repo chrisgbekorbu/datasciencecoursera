@@ -1,7 +1,7 @@
 #Code Book
 This code book describes the various data files used in this project and the processing required to create the resulting tidy data set. The overview and 
 ##Overview
-30 subjects between the ages of 19-48 performed six activities (walking, walking upstairs, walking downstairs, sitting, standing, and laying) while wearing a Samsung Galaxy S II smartphone. 3-axial linear acceleration and 3-axial angular velocity were captured using the smartphones’ embedded accelerometer and gyroscope.
+30 subjects between the ages of 19-48 performed six activities (walking, walking upstairs, walking downstairs, sitting, standing, and laying) while wearing a Samsung Galaxy S II smartphone. 3-axial linear acceleration and 3-axial angular velocity were captured using the smartphonesâ€™ embedded accelerometer and gyroscope.
 ##Data Files Used
 As Anguita et al. (2013) describe, their data include:
 * 'README.txt'
@@ -14,9 +14,9 @@ As Anguita et al. (2013) describe, their data include:
 * 'test/y_test.txt': Test labels.
 * 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 In addition, the following file is produced using the run_analysis.R script:
-* ‘UCI HAR-Tidy.txt’: A tidy data set of the means and standard deviations for the six activities found in Anguita et al.’s (2013) original data.
+* â€˜UCI HAR-Tidy.txtâ€™: A tidy data set of the means and standard deviations for the six activities found in Anguita et al.â€™s (2013) original data.
 ##Data Files Excluded
-Anguita et al.’s (2013) data also include the following files which were not used to create the tidy data set. These files are:
+Anguita et al.â€™s (2013) data also include the following files which were not used to create the tidy data set. These files are:
 * 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
 * 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 * 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.

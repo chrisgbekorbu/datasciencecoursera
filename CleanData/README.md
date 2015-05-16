@@ -1,4 +1,3 @@
-#README.MD
 This is part of the Getting and Cleaning Data course on Coursera, where the goal was to create a tidy version of the “Human Activity Recognition Using Smartphones” data provided by Anguita, Ghio, Oneto, Parra and Reyes-Ortiz (2013).
 
 The R script will take Anguita’s et al.’s data and transform it into a tidy data set, as advocated by Hadley Wickham (2014).
